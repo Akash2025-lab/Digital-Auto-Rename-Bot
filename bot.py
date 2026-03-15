@@ -3,7 +3,7 @@
 # Don't Remove Credit 😔
 # Telegram Channel @RknDeveloper & @Rkn_Botz
 # Developer @RknDeveloperr
-# Special Thanks To @ReshamOwner
+# Special Thanks To @Rena237900
 # Update Channel @Digital_Botz & @DigitalBotz_Support
 """
 Apache License 2.0
@@ -102,7 +102,7 @@ class DigitalAutoRenameBot(Client):
         print(f"{me.first_name} Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️")
 
         
-        for id in Config.ADMIN:
+        for id in Config.ADMIN:5492204858
             if Config.STRING_SESSION:
                 try: await self.send_message(id, f"𝟮𝗚𝗕+ ғɪʟᴇ sᴜᴘᴘᴏʀᴛ ʜᴀs ʙᴇᴇɴ ᴀᴅᴅᴇᴅ ᴛᴏ ʏᴏᴜʀ ʙᴏᴛ.\n\nNote: 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐩𝐫𝐞𝐦𝐢𝐮𝐦 𝐚𝐜𝐜𝐨𝐮𝐧𝐭 𝐬𝐭𝐫𝐢𝐧𝐠 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐫𝐞𝐪𝐮𝐢𝐫𝐞𝐝 𝐓𝐡𝐞𝐧 𝐬𝐮𝐩𝐩𝐨𝐫𝐭𝐬 𝟐𝐆𝐁+ 𝐟𝐢𝐥𝐞𝐬.\n\n**__{me.first_name}  Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️__**")                                
                 except: pass
@@ -110,7 +110,7 @@ class DigitalAutoRenameBot(Client):
                 try: await self.send_message(id, f"𝟮𝗚𝗕- ғɪʟᴇ sᴜᴘᴘᴏʀᴛ ʜᴀs ʙᴇᴇɴ ᴀᴅᴅᴇᴅ ᴛᴏ ʏᴏᴜʀ ʙᴏᴛ.\n\n**__{me.first_name}  Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️__**")                                
                 except: pass
                     
-        if Config.LOG_CHANNEL:
+        if Config.LOG_CHANNEL:-1002474664348
             try:
                 curr = datetime.datetime.now(pytz.timezone("Asia/Kolkata"))
                 date = curr.strftime('%d %B, %Y')

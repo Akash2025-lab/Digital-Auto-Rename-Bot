@@ -60,9 +60,9 @@ class DigitalAutoRenameBot(Client):
     def __init__(self):
         super().__init__(
             name="DigitalRenameBot",
-            api_id=Config.8724723153,
-            api_hash=Config.0ab2955ad5b1a913e220800b5fc5db36,
-            bot_token=Config.8724723153:AAGuMq5t3Mq8egJUAcT96_VMnZEok8gkTZs,
+            api_id=8724723153,
+            api_hash=0ab2955ad5b1a913e220800b5fc5db36,
+            bot_token=8724723153:AAGuMq5t3Mq8egJUAcT96_VMnZEok8gkTZs,
             workers=200,
             plugins={"root": "plugins"},
             sleep_threshold=5,
